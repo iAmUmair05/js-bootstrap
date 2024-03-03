@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg {
+    background: url("bg.jpg") ;
+    height: 450px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding-top: 8vh;
+}
+.attribute{
+    font-size: 3vh;
+}
+a:hover {
+ font-weight: bold;
+}
+.display  {
+font-size: 30px;
+}
